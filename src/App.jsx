@@ -8,7 +8,7 @@ function App() {
     axios({
       method: 'get',
       headers: { 'accept': '*/*'},
-      url: 'http://c286-185-253-182-161.ngrok.io/project/view/registry/',
+      url: 'http://794d-185-253-182-161.ngrok.io/project/view/registry/',
     }).then(function (response) {
       setItems(response.data)
       console.log(response.data);
